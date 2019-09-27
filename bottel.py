@@ -1,5 +1,4 @@
 import telebot
-import time
 bot = telebot.TeleBot("814281909:AAHYOzJLPUNk8LUYRiUfsxBNNN31BTPzkVM")
 @bot.message_handler(commands=['monday', 'pon', '1', 'first', 'mon'])
 def command_help(message):
